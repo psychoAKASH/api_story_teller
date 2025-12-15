@@ -1,0 +1,15 @@
+[project]
+name = "api-story-teller"
+version = "0.1.0"
+description = "Open-source API usage analytics platform"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "alembic",
+    "python-dotenv",
+]
